@@ -1,0 +1,7 @@
+indicator,definition,k,n,pct,wilson_lo_pct,wilson_hi_pct
+male,gender == Male,57,70,81.4,70.8,88.8
+university,edu_attendance == University,42,70,60.0,48.3,70.7
+professional,occupation == Professional,58,70,82.9,72.4,89.9
+son_daughter,rel_head == Son/daughter,46,70,65.7,54.0,75.8
+online_mode,src_mode == Online,40,70,57.1,45.5,68.1
+western_province,province == Western,40,70,57.1,45.5,68.1

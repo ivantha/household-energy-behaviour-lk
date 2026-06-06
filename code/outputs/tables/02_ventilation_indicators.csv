@@ -1,0 +1,6 @@
+indicator,count,pct_of_all,pct_of_reporters,share_all,share_all_lo,share_all_hi
+Window wall,28,40.0,51.9,0.4,0.2857,0.5143
+Transparent wall,17,24.3,31.5,0.2429,0.1429,0.3429
+Other,11,15.7,20.4,0.1571,0.0714,0.2429
+Transparent roof,9,12.9,16.7,0.1286,0.0571,0.2143
+Pergola,7,10.0,13.0,0.1,0.0429,0.1714

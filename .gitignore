@@ -1,0 +1,28 @@
+# ─── Python / uv ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+code/.venv/
+.uv/
+
+# Python tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ─── OS / editors ─────────────────────────────────────────────────────────
+.DS_Store
+Desktop.ini
+.vscode/
+.idea/
+
+# ─── Local agent / worktree scratch ───────────────────────────────────────
+.claude/
+
+# NOTE: unlike a typical analysis repo, generated outputs are intentionally
+# version-controlled here so the results are browsable without a local run:
+#   - data/processed/          (cleaned data, codebook, ECI scores, summary)
+#   - code/outputs/figures/    (PNG + PDF)
+#   - code/outputs/tables/     (CSV + LaTeX)
+# Regenerate them any time with:  cd code && uv sync && uv run python run_all.py

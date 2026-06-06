@@ -1,0 +1,11 @@
+Pair A,Pair B,Spearman r,p,q (BH-FDR)
+Meter-checking,Energy-rating check,0.281,0.0183,0.1829
+Ironing efficiency,Night-light restraint,0.175,0.1482,0.707
+Ironing efficiency,Meter-checking,0.149,0.2175,0.707
+Bill-calc literacy,Meter-checking,-0.117,0.3352,0.707
+Bill-calc literacy,Night-light restraint,-0.113,0.3535,0.707
+Night-light restraint,Meter-checking,-0.087,0.4745,0.7382
+Night-light restraint,Energy-rating check,-0.079,0.5168,0.7382
+Bill-calc literacy,Ironing efficiency,-0.051,0.6728,0.8409
+Bill-calc literacy,Energy-rating check,0.035,0.7764,0.8626
+Ironing efficiency,Energy-rating check,0.014,0.9057,0.9057

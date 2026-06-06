@@ -1,0 +1,27 @@
+code,label,n_missing,pct_missing
+vent_raw,,16,22.9
+area_sqft,Floor area (sq ft),5,7.1
+food_exp,Food expenditure (Rs/mo),1,1.4
+nonfood_exp,Non-food expenditure (Rs/mo),1,1.4
+stories,Number of stories,1,1.4
+arch_design,Architectural design level,0,0.0
+billknow_raw,,0,0.0
+build_period,Construction period,0,0.0
+district,District,0,0.0
+edu_attendance,Educational attendance,0,0.0
+enrating_raw,,0,0.0
+gen_raw,,0,0.0
+gender,Gender,0,0.0
+house_type,House type,0,0.0
+iron_raw,,0,0.0
+metercheck_raw,,0,0.0
+nightlight_raw,,0,0.0
+occupation,Main occupation,0,0.0
+pay_practice,Bill-payment practice,0,0.0
+red_notices,Red notices (last year),0,0.0
+rel_head,Relationship to head,0,0.0
+roof_type,Roof type,0,0.0
+solar_raw,,0,0.0
+src_mode,Data collection mode,0,0.0
+wall_material,Outer-wall material,0,0.0
+wiring_pro,Professional wiring,0,0.0

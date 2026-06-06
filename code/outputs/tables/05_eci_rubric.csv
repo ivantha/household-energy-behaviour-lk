@@ -1,0 +1,18 @@
+Behaviour,Category (scored meaning),Score,Max,n
+Bill-calc literacy,Not aware how bill is calculated,0,2,14
+Bill-calc literacy,Learnt via media / other means,1,2,22
+Bill-calc literacy,Learnt from bill / family / utility,2,2,34
+Ironing efficiency,Iron daily,0,4,10
+Ironing efficiency,Iron when need arises,1,4,42
+Ironing efficiency,Iron twice a week,2,4,8
+Ironing efficiency,Iron weekly,3,4,7
+Ironing efficiency,Do not iron,4,4,3
+Night-light restraint,More than two night-lights on,0,2,6
+Night-light restraint,Fewer than two night-lights on,1,2,38
+Night-light restraint,No lights on while sleeping,2,2,26
+Meter-checking,Never check meter,0,3,20
+Meter-checking,Rarely (once a year),1,3,16
+Meter-checking,Some months,2,3,20
+Meter-checking,Every month,3,3,14
+Energy-rating check,Does not check energy rating,0,1,19
+Energy-rating check,Checks energy rating when buying,1,1,51

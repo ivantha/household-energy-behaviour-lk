@@ -1,0 +1,67 @@
+index,code,role,label,dtype,n_nonnull,n_unique,original_question
+0,src_mode,meta,Data collection mode,str,70,3,Source
+1,build_period,dwelling,Construction period,str,70,6,Which of the following time periods best describes when your house was built?
+2,arch_design,dwelling,Architectural design level,str,70,6,What do you know about the architecture of the house?
+3,house_type,dwelling,House type,str,70,5,Select the best option which describes your house.
+4,stories,dwelling,Number of stories,float64,69,3,How many stories does your house have?
+5,area_sqft,dwelling,Floor area (sq ft),float64,65,30,State the area of your house in square feet?
+6,rel_head,demographic,Relationship to head,str,70,7,Relationship to the head of the household
+7,gender,demographic,Gender,str,70,2,Gender
+8,edu_attendance,demographic,Educational attendance,str,70,5,Current attendance at school or other educational institution
+9,occupation,demographic,Main occupation,str,70,5,Main occupation
+10,food_exp,ses,Food expenditure (Rs/mo),float64,69,18,How much is your household's average monthly expenditure for food? (in Rupees)
+11,nonfood_exp,ses,Non-food expenditure (Rs/mo),float64,69,18,How much is your household's average monthly expenditure for non food? (in Rupees)
+12,wall_material,dwelling,Outer-wall material,str,70,3,What is the best representation of the major material your outside walls are made of?
+13,vent_raw,,,str,54,14,Which of the following options does your house use for ventilation and lighting other than windows and doors (only indoors)?
+14,roof_type,dwelling,Roof type,str,70,3,What is the major type of roof installation used in your house (on the highest floor)?
+15,red_notices,energy_system,Red notices (last year),int64,70,8,"Nearly how many red notices did you receive last year?
+(A red notice is issued for failing to settle outstanding bills during a certain period)"
+16,pay_practice,energy_system,Bill-payment practice,str,70,4,Which of the below is true regarding your normal bill payment practice (example given when the bill is Rs 4566)?
+17,wiring_pro,energy_system,Professional wiring,str,70,3,Was your wiring done by a professional electrician?
+18,gen_raw,,,str,70,6,Which of the following do you use in your household for generating electricity?
+19,solar_raw,,,str,70,10,"If using solar energy, which of the following purposes do you use solar energy inside your house?"
+20,billknow_raw,,,str,70,6,Which of the following can most accurately describe your know-how in electricity bill calculation?
+21,iron_raw,,,str,70,5,Which of the following best describes your behaviour of ironing clothes?
+22,nightlight_raw,,,str,70,3,Which of the following best describes your behaviour regarding night lighting considering the whole house?
+23,metercheck_raw,,,str,70,4,Do you check your electricity meter for overconsumption?
+24,enrating_raw,,,str,70,2,Do you look at the energy rating of an appliance when buying one?
+25,district,context,District,str,70,11,Which district you are residing?
+,total_exp,ses,Total expenditure (Rs/mo),float64,69,28,[derived]
+,area_per_story,dwelling,Floor area per story (sq ft),float64,64,34,[derived]
+,any_red_notice,derived,Any disconnection notice,int64,70,2,[derived]
+,province,context,Province,str,70,6,[derived]
+,vent_count,derived,,int64,70,5,[derived]
+,vent_reported,derived,,int64,70,2,[derived]
+,gen_count,derived,,int64,70,3,[derived]
+,gen_none,derived,,int64,70,2,[derived]
+,uses_renewable,derived,Uses renewable source,int64,70,2,[derived]
+,solar_user,derived,Solar user,int64,70,2,[derived]
+,solar_purpose_count,derived,,int64,70,5,[derived]
+,eci,outcome,Energy-Consciousness Index (0-100),float64,70,31,[derived]
+,eci_band,outcome,Energy-consciousness band,category,70,3,[derived]
+,eci_raw_sum,derived,,int64,70,9,[derived]
+,eci_billknow,behaviour_item,Bill-calculation literacy,int64,70,3,[derived]
+,eci_iron,behaviour_item,Ironing efficiency,int64,70,5,[derived]
+,eci_nightlight,behaviour_item,Night-lighting restraint,int64,70,3,[derived]
+,eci_metercheck,behaviour_item,Meter-checking frequency,int64,70,4,[derived]
+,eci_enrating,behaviour_item,Energy-rating awareness,int64,70,2,[derived]
+,eci_billknow_norm,derived,,float64,70,3,[derived]
+,eci_iron_norm,derived,,float64,70,5,[derived]
+,eci_nightlight_norm,derived,,float64,70,3,[derived]
+,eci_metercheck_norm,derived,,float64,70,4,[derived]
+,eci_enrating_norm,derived,,float64,70,2,[derived]
+,vent_glassroof,derived,,int64,70,2,[derived]
+,vent_glasswall,derived,,int64,70,2,[derived]
+,vent_other,derived,,int64,70,2,[derived]
+,vent_pergola,derived,,int64,70,2,[derived]
+,vent_window,derived,,int64,70,2,[derived]
+,gen_grid,derived,,int64,70,2,[derived]
+,gen_hydro,derived,,int64,70,2,[derived]
+,gen_othergreen,derived,,int64,70,2,[derived]
+,gen_solar,derived,,int64,70,2,[derived]
+,solar_agri,derived,,int64,70,2,[derived]
+,solar_car,derived,,int64,70,2,[derived]
+,solar_cooking,derived,,int64,70,2,[derived]
+,solar_other,derived,,int64,70,2,[derived]
+,solar_outdoor,derived,,int64,70,2,[derived]
+,solar_water,derived,,int64,70,2,[derived]

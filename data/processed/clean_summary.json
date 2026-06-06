@@ -1,0 +1,43 @@
+{
+  "n": 70,
+  "n_columns_clean": 65,
+  "invalid_zeros_set_missing": {
+    "area_sqft": 5,
+    "food_exp": 1,
+    "nonfood_exp": 1,
+    "stories": 1
+  },
+  "districts_unmapped_to_province": [],
+  "eci_cronbach_alpha": 0.058365387267392266,
+  "eci_item_total_corr": {
+    "eci_billknow_norm": -0.12754670164584603,
+    "eci_iron_norm": 0.10803076872995776,
+    "eci_nightlight_norm": -0.07497678564724394,
+    "eci_metercheck_norm": 0.10787444626638319,
+    "eci_enrating_norm": 0.1441908656260967
+  },
+  "eci_describe": {
+    "count": 70.0,
+    "mean": 56.11904761904763,
+    "std": 16.4642819093324,
+    "min": 18.333333333333332,
+    "25%": 45.416666666666664,
+    "50%": 55.00000000000001,
+    "75%": 69.58333333333333,
+    "max": 86.66666666666669
+  },
+  "eci_band_counts": {
+    "Low": 24,
+    "Medium": 23,
+    "High": 23
+  },
+  "missing_by_col": {
+    "stories": 1,
+    "area_sqft": 5,
+    "food_exp": 1,
+    "nonfood_exp": 1,
+    "vent_raw": 16,
+    "total_exp": 1,
+    "area_per_story": 6
+  }
+}

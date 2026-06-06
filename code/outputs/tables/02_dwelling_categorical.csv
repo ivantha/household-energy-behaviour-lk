@@ -1,0 +1,27 @@
+variable,level,count,pct_of_valid,share,share_lo,share_hi,n_valid,n_missing,n_total
+Construction period,Before 1980,7,10.0,0.1,0.0429,0.1714,70,0,70
+Construction period,1980 - 1989,7,10.0,0.1,0.0429,0.1714,70,0,70
+Construction period,1990 - 1999,16,22.9,0.2286,0.1286,0.3286,70,0,70
+Construction period,2000 - 2009,22,31.4,0.3143,0.2143,0.4286,70,0,70
+Construction period,2010 - 2019,12,17.1,0.1714,0.0857,0.2571,70,0,70
+Construction period,After 2019,6,8.6,0.0857,0.0286,0.1571,70,0,70
+Architectural design level,The house was designed by a certified architect,30,42.9,0.4286,0.3143,0.5429,70,0,70
+Architectural design level,"House was not specifically designed by an architect, but the plan was inspected by a certified architect/engineer",15,21.4,0.2143,0.1286,0.3143,70,0,70
+Architectural design level,No such professional designing was done; the house was designed to suit our needs and wants,10,14.3,0.1429,0.0714,0.2286,70,0,70
+Architectural design level,I am not aware of it,9,12.9,0.1286,0.0571,0.2143,70,0,70
+Architectural design level,House was designed barely to pass the statutory requirements of the local authorities,5,7.1,0.0714,0.0143,0.1429,70,0,70
+Architectural design level,Other,1,1.4,0.0143,0.0,0.0429,70,0,70
+House type,Single House - Single Floor,24,34.3,0.3429,0.2286,0.4571,70,0,70
+House type,Single House -Double Floor,37,52.9,0.5286,0.4143,0.6429,70,0,70
+House type,Single House - Above double floor,7,10.0,0.1,0.0429,0.1714,70,0,70
+House type,Flat,1,1.4,0.0143,0.0,0.0429,70,0,70
+House type,Slum / Shanty,1,1.4,0.0143,0.0,0.0429,70,0,70
+Number of stories,1.0,27,39.1,0.3913,0.2754,0.5072,69,1,70
+Number of stories,2.0,32,46.4,0.4638,0.3478,0.5797,69,1,70
+Number of stories,3.0,10,14.5,0.1449,0.0725,0.2319,69,1,70
+Outer-wall material,Brick,43,61.4,0.6143,0.5,0.7286,70,0,70
+Outer-wall material,Cement Block,23,32.9,0.3286,0.2286,0.4429,70,0,70
+Outer-wall material,Cabook,4,5.7,0.0571,0.0143,0.1143,70,0,70
+Roof type,Tile,27,38.6,0.3857,0.2714,0.5,70,0,70
+Roof type,Asbestos,36,51.4,0.5143,0.4,0.6286,70,0,70
+Roof type,Concrete,7,10.0,0.1,0.0286,0.1714,70,0,70

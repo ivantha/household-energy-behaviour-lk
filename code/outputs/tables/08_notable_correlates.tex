@@ -1,0 +1,25 @@
+\begin{table}
+\caption{Fifteen largest predictor x behaviour effect sizes (of 85 tests). 'Effect' is Spearman rho (numeric) or epsilon^2 (categorical) with bootstrap 95% CI; q is Benjamini-Hochberg across the whole family.}
+\label{tab:notable}
+\begin{tabular}{llllrlrrrrrrr}
+\toprule
+Predictor & Behaviour & Kind & Test & n & Effect & Value & CI lo & CI hi & Var.expl. & p & q (BH) & FDR<.05 \\
+\midrule
+Non-food exp (Rs/mo) & Night-light restraint & numeric & spearman & 69 & rho & -0.303 & -0.508 & -0.080 & 0.092 & 0.011 & 0.567 & False \\
+Total exp (Rs/mo) & Night-light restraint & numeric & spearman & 69 & rho & -0.297 & -0.517 & -0.056 & 0.088 & 0.013 & 0.567 & False \\
+House type & Night-light restraint & categorical & kruskal & 68 & eps2 & 0.054 & -0.022 & 0.242 & 0.054 & 0.064 & 0.732 & False \\
+Roof type & Ironing efficiency & categorical & kruskal & 70 & eps2 & 0.053 & -0.025 & 0.284 & 0.053 & 0.062 & 0.732 & False \\
+Gender & Meter-checking & categorical & kruskal & 70 & eps2 & 0.053 & -0.013 & 0.218 & 0.053 & 0.032 & 0.732 & False \\
+Roof type & Night-light restraint & categorical & kruskal & 70 & eps2 & 0.051 & -0.018 & 0.215 & 0.051 & 0.066 & 0.732 & False \\
+Food exp (Rs/mo) & Night-light restraint & numeric & spearman & 69 & rho & -0.226 & -0.458 & 0.017 & 0.051 & 0.062 & 0.732 & False \\
+Bill-payment style & Energy-rating use & categorical & kruskal & 70 & eps2 & 0.050 & -0.022 & 0.263 & 0.050 & 0.069 & 0.732 & False \\
+Province & Meter-checking & categorical & kruskal & 70 & eps2 & 0.041 & -0.027 & 0.270 & 0.041 & 0.125 & 0.767 & False \\
+Province & Ironing efficiency & categorical & kruskal & 70 & eps2 & 0.039 & -0.028 & 0.225 & 0.039 & 0.133 & 0.767 & False \\
+No. of stories & Night-light restraint & numeric & spearman & 69 & rho & -0.182 & -0.403 & 0.046 & 0.033 & 0.135 & 0.767 & False \\
+Wall material & Meter-checking & categorical & kruskal & 70 & eps2 & 0.028 & -0.014 & 0.167 & 0.028 & 0.087 & 0.767 & False \\
+Wall material & Night-light restraint & categorical & kruskal & 70 & eps2 & 0.027 & -0.014 & 0.177 & 0.027 & 0.092 & 0.767 & False \\
+Pro. wiring & Ironing efficiency & categorical & kruskal & 70 & eps2 & 0.023 & -0.015 & 0.159 & 0.023 & 0.110 & 0.767 & False \\
+Uses renewable & Energy-rating use & categorical & kruskal & 70 & eps2 & 0.023 & -0.014 & 0.102 & 0.023 & 0.110 & 0.767 & False \\
+\bottomrule
+\end{tabular}
+\end{table}

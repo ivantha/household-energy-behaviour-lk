@@ -1,0 +1,266 @@
+\begin{table}
+\caption{Strongest bivariate associations across two test families (categorical: Fisher/chi-square + bias-corrected Cramer's V; numeric: Spearman with bootstrap 95\% CI). q = Benjamini-Hochberg FDR-adjusted p within each family. N=70, exploratory.}
+\label{tab:top_assoc}
+\begin{tabular}{lllllllrrrrrrrrrl}
+\toprule
+family & var\_a & var\_b & block & relation & test & effect & effect\_size & ci\_lo & ci\_hi & p & q & n & rows & cols & min\_expected & interpretation \\
+\midrule
+categorical & Relationship to head & Educational attendance & demographic & substantive & chi2 & cramers\_v & 0.497 & -- & -- & 0.000 & 0.000 & 70 & 7.000 & 5.000 & 0.014 & moderate \\
+categorical & Uses renewable source & Solar user & energy & substantive & fisher & cramers\_v & 0.649 & -- & -- & 0.000 & 0.000 & 70 & 2.000 & 2.000 & 2.743 & large \\
+categorical & Educational attendance & Main occupation & demographic & substantive & chi2 & cramers\_v & 0.285 & -- & -- & 0.002 & 0.089 & 70 & 5.000 & 5.000 & 0.014 & small \\
+categorical & House type & Roof type & dwelling & substantive & chi2 & cramers\_v & 0.347 & -- & -- & 0.002 & 0.089 & 70 & 5.000 & 3.000 & 0.100 & moderate \\
+categorical & Main occupation & Bill-payment practice & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.294 & -- & -- & 0.003 & 0.123 & 70 & 5.000 & 4.000 & 0.100 & small \\
+categorical & Outer-wall material & Roof type & dwelling & substantive & chi2 & cramers\_v & 0.273 & -- & -- & 0.007 & 0.212 & 70 & 3.000 & 3.000 & 0.400 & small \\
+categorical & Architectural design level & Professional wiring & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.306 & -- & -- & 0.011 & 0.275 & 70 & 6.000 & 3.000 & 0.043 & moderate \\
+categorical & Relationship to head & Gender & demographic & substantive & chi2 & cramers\_v & 0.380 & -- & -- & 0.013 & 0.275 & 70 & 7.000 & 2.000 & 0.186 & moderate \\
+categorical & Relationship to head & Meter-checking frequency & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.272 & -- & -- & 0.016 & 0.275 & 70 & 7.000 & 4.000 & 0.200 & small \\
+categorical & Roof type & Ironing efficiency & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.278 & -- & -- & 0.017 & 0.275 & 70 & 3.000 & 5.000 & 0.300 & small \\
+categorical & Main occupation & Ironing efficiency & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.230 & -- & -- & 0.017 & 0.275 & 70 & 5.000 & 5.000 & 0.043 & small \\
+categorical & Relationship to head & Energy-rating awareness & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.363 & -- & -- & 0.019 & 0.275 & 70 & 7.000 & 2.000 & 0.271 & moderate \\
+categorical & Architectural design level & Solar user & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.350 & -- & -- & 0.019 & 0.275 & 70 & 6.000 & 2.000 & 0.229 & moderate \\
+categorical & Gender & Province & demographic\textasciitilde context & substantive & chi2 & cramers\_v & 0.338 & -- & -- & 0.024 & 0.322 & 70 & 2.000 & 6.000 & 0.186 & moderate \\
+categorical & Gender & Bill-payment practice & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.298 & -- & -- & 0.027 & 0.341 & 70 & 2.000 & 4.000 & 1.300 & small \\
+categorical & Construction period & Roof type & dwelling & substantive & chi2 & cramers\_v & 0.255 & -- & -- & 0.040 & 0.422 & 70 & 6.000 & 3.000 & 0.600 & small \\
+categorical & Main occupation & Any disconnection notice & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.293 & -- & -- & 0.041 & 0.422 & 70 & 5.000 & 2.000 & 0.200 & small \\
+categorical & Construction period & Relationship to head & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.207 & -- & -- & 0.044 & 0.422 & 70 & 6.000 & 7.000 & 0.086 & small \\
+categorical & Architectural design level & Province & dwelling\textasciitilde context & substantive & chi2 & cramers\_v & 0.197 & -- & -- & 0.046 & 0.422 & 70 & 6.000 & 6.000 & 0.014 & small \\
+categorical & Architectural design level & Uses renewable source & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.297 & -- & -- & 0.048 & 0.422 & 70 & 6.000 & 2.000 & 0.171 & small \\
+categorical & Construction period & Main occupation & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.206 & -- & -- & 0.049 & 0.422 & 70 & 6.000 & 5.000 & 0.086 & small \\
+categorical & Outer-wall material & Relationship to head & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.255 & -- & -- & 0.050 & 0.422 & 70 & 3.000 & 7.000 & 0.057 & small \\
+categorical & Construction period & Architectural design level & dwelling & substantive & chi2 & cramers\_v & 0.193 & -- & -- & 0.052 & 0.422 & 70 & 6.000 & 6.000 & 0.086 & small \\
+categorical & House type & Ironing efficiency & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.193 & -- & -- & 0.053 & 0.422 & 70 & 5.000 & 5.000 & 0.043 & small \\
+categorical & Construction period & Outer-wall material & dwelling & substantive & chi2 & cramers\_v & 0.240 & -- & -- & 0.056 & 0.422 & 70 & 6.000 & 3.000 & 0.343 & small \\
+categorical & Educational attendance & Bill-payment practice & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.194 & -- & -- & 0.072 & 0.508 & 70 & 5.000 & 4.000 & 0.100 & small \\
+categorical & Gender & Meter-checking frequency & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.239 & -- & -- & 0.072 & 0.508 & 70 & 2.000 & 4.000 & 2.600 & small \\
+categorical & Bill-payment practice & Night-lighting restraint & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.196 & -- & -- & 0.079 & 0.530 & 70 & 4.000 & 3.000 & 0.600 & small \\
+categorical & Relationship to head & Solar user & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.274 & -- & -- & 0.081 & 0.530 & 70 & 7.000 & 2.000 & 0.229 & small \\
+categorical & Ironing efficiency & Meter-checking frequency & behaviour & substantive & chi2 & cramers\_v & 0.181 & -- & -- & 0.094 & 0.598 & 70 & 5.000 & 4.000 & 0.600 & small \\
+categorical & Outer-wall material & Meter-checking frequency & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.183 & -- & -- & 0.100 & 0.612 & 70 & 3.000 & 4.000 & 0.800 & small \\
+categorical & Meter-checking frequency & Energy-rating awareness & behaviour & substantive & chi2 & cramers\_v & 0.208 & -- & -- & 0.111 & 0.645 & 70 & 4.000 & 2.000 & 3.800 & small \\
+categorical & Bill-payment practice & Energy-rating awareness & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.200 & -- & -- & 0.122 & 0.645 & 70 & 4.000 & 2.000 & 1.900 & small \\
+categorical & Bill-payment practice & Any disconnection notice & energy & substantive & chi2 & cramers\_v & 0.198 & -- & -- & 0.124 & 0.645 & 70 & 4.000 & 2.000 & 1.400 & small \\
+categorical & Roof type & Night-lighting restraint & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.152 & -- & -- & 0.126 & 0.645 & 70 & 3.000 & 3.000 & 0.600 & small \\
+categorical & Architectural design level & Night-lighting restraint & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.192 & -- & -- & 0.127 & 0.645 & 70 & 6.000 & 3.000 & 0.086 & small \\
+categorical & Architectural design level & Bill-payment practice & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.174 & -- & -- & 0.127 & 0.645 & 70 & 6.000 & 4.000 & 0.100 & small \\
+categorical & Province & Meter-checking frequency & context\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.172 & -- & -- & 0.132 & 0.645 & 70 & 6.000 & 4.000 & 0.200 & small \\
+categorical & Professional wiring & Energy-rating awareness & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.167 & -- & -- & 0.139 & 0.645 & 70 & 3.000 & 2.000 & 0.814 & small \\
+categorical & Construction period & Ironing efficiency & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.158 & -- & -- & 0.139 & 0.645 & 70 & 6.000 & 5.000 & 0.257 & small \\
+categorical & Architectural design level & Energy-rating awareness & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.213 & -- & -- & 0.146 & 0.645 & 70 & 6.000 & 2.000 & 0.271 & small \\
+categorical & Bill-payment practice & Ironing efficiency & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.155 & -- & -- & 0.149 & 0.645 & 70 & 4.000 & 5.000 & 0.300 & small \\
+categorical & Architectural design level & House type & dwelling & substantive & chi2 & cramers\_v & 0.152 & -- & -- & 0.153 & 0.645 & 70 & 6.000 & 5.000 & 0.014 & small \\
+categorical & Main occupation & Professional wiring & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.167 & -- & -- & 0.155 & 0.645 & 70 & 5.000 & 3.000 & 0.043 & small \\
+categorical & Gender & Solar user & demographic\textasciitilde energy & substantive & fisher & cramers\_v & 0.131 & -- & -- & 0.156 & 0.645 & 70 & 2.000 & 2.000 & 2.971 & small \\
+categorical & Uses renewable source & Energy-rating awareness & energy\textasciitilde behaviour & substantive & fisher & cramers\_v & 0.151 & -- & -- & 0.159 & 0.645 & 70 & 2.000 & 2.000 & 3.257 & small \\
+categorical & Ironing efficiency & Night-lighting restraint & behaviour & substantive & chi2 & cramers\_v & 0.165 & -- & -- & 0.160 & 0.645 & 70 & 5.000 & 3.000 & 0.257 & small \\
+categorical & Roof type & Uses renewable source & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.152 & -- & -- & 0.163 & 0.645 & 70 & 3.000 & 2.000 & 1.200 & small \\
+categorical & Architectural design level & Any disconnection notice & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.196 & -- & -- & 0.173 & 0.671 & 70 & 6.000 & 2.000 & 0.200 & small \\
+categorical & Province & Night-lighting restraint & context\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.164 & -- & -- & 0.183 & 0.697 & 70 & 6.000 & 3.000 & 0.086 & small \\
+categorical & Solar user & Night-lighting restraint & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.138 & -- & -- & 0.188 & 0.700 & 70 & 2.000 & 3.000 & 1.371 & small \\
+categorical & Construction period & Province & dwelling\textasciitilde context & substantive & chi2 & cramers\_v & 0.127 & -- & -- & 0.204 & 0.745 & 70 & 6.000 & 6.000 & 0.086 & small \\
+categorical & Outer-wall material & Professional wiring & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.110 & -- & -- & 0.222 & 0.797 & 70 & 3.000 & 3.000 & 0.171 & small \\
+categorical & Relationship to head & Night-lighting restraint & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.151 & -- & -- & 0.227 & 0.800 & 70 & 7.000 & 3.000 & 0.086 & small \\
+categorical & Educational attendance & Energy-rating awareness & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.136 & -- & -- & 0.255 & 0.832 & 70 & 5.000 & 2.000 & 0.271 & small \\
+categorical & Bill-payment practice & Bill-calculation literacy & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.111 & -- & -- & 0.255 & 0.832 & 70 & 4.000 & 3.000 & 1.400 & small \\
+categorical & Architectural design level & Relationship to head & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.112 & -- & -- & 0.262 & 0.832 & 70 & 6.000 & 7.000 & 0.014 & small \\
+categorical & Relationship to head & Uses renewable source & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.152 & -- & -- & 0.262 & 0.832 & 70 & 7.000 & 2.000 & 0.171 & small \\
+categorical & Educational attendance & Any disconnection notice & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.126 & -- & -- & 0.272 & 0.832 & 70 & 5.000 & 2.000 & 0.200 & small \\
+categorical & Professional wiring & Ironing efficiency & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.114 & -- & -- & 0.273 & 0.832 & 70 & 3.000 & 5.000 & 0.129 & small \\
+categorical & Outer-wall material & Educational attendance & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.114 & -- & -- & 0.274 & 0.832 & 70 & 3.000 & 5.000 & 0.057 & small \\
+categorical & Gender & Any disconnection notice & demographic\textasciitilde energy & substantive & fisher & cramers\_v & 0.045 & -- & -- & 0.277 & 0.832 & 70 & 2.000 & 2.000 & 2.600 & negligible \\
+categorical & Relationship to head & Main occupation & demographic & substantive & chi2 & cramers\_v & 0.111 & -- & -- & 0.277 & 0.832 & 70 & 7.000 & 5.000 & 0.014 & small \\
+categorical & Any disconnection notice & Bill-calculation literacy & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.086 & -- & -- & 0.280 & 0.832 & 70 & 2.000 & 3.000 & 2.800 & negligible \\
+categorical & Roof type & Bill-payment practice & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.099 & -- & -- & 0.285 & 0.833 & 70 & 3.000 & 4.000 & 0.700 & negligible \\
+categorical & House type & Bill-calculation literacy & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.100 & -- & -- & 0.303 & 0.837 & 70 & 5.000 & 3.000 & 0.200 & small \\
+categorical & Solar user & Bill-calculation literacy & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.071 & -- & -- & 0.304 & 0.837 & 70 & 2.000 & 3.000 & 3.200 & negligible \\
+categorical & Architectural design level & Roof type & dwelling & substantive & chi2 & cramers\_v & 0.106 & -- & -- & 0.307 & 0.837 & 70 & 6.000 & 3.000 & 0.100 & small \\
+categorical & Roof type & Any disconnection notice & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.068 & -- & -- & 0.309 & 0.837 & 70 & 3.000 & 2.000 & 1.400 & negligible \\
+categorical & Relationship to head & Bill-payment practice & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.103 & -- & -- & 0.311 & 0.837 & 70 & 7.000 & 4.000 & 0.100 & small \\
+categorical & Relationship to head & Any disconnection notice & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.117 & -- & -- & 0.318 & 0.837 & 70 & 7.000 & 2.000 & 0.200 & small \\
+categorical & Educational attendance & Bill-calculation literacy & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.088 & -- & -- & 0.329 & 0.837 & 70 & 5.000 & 3.000 & 0.200 & negligible \\
+categorical & Relationship to head & Professional wiring & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.100 & -- & -- & 0.332 & 0.837 & 70 & 7.000 & 3.000 & 0.043 & negligible \\
+categorical & Construction period & Energy-rating awareness & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.098 & -- & -- & 0.333 & 0.837 & 70 & 6.000 & 2.000 & 1.629 & negligible \\
+categorical & Construction period & Educational attendance & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.083 & -- & -- & 0.334 & 0.837 & 70 & 6.000 & 5.000 & 0.086 & negligible \\
+categorical & Professional wiring & Province & energy\textasciitilde context & substantive & chi2 & cramers\_v & 0.092 & -- & -- & 0.335 & 0.837 & 70 & 3.000 & 6.000 & 0.043 & negligible \\
+categorical & Professional wiring & Meter-checking frequency & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.066 & -- & -- & 0.352 & 0.852 & 70 & 3.000 & 4.000 & 0.600 & negligible \\
+categorical & Bill-calculation literacy & Ironing efficiency & behaviour & substantive & chi2 & cramers\_v & 0.075 & -- & -- & 0.353 & 0.852 & 70 & 3.000 & 5.000 & 0.600 & negligible \\
+categorical & Outer-wall material & Night-lighting restraint & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.050 & -- & -- & 0.354 & 0.852 & 70 & 3.000 & 3.000 & 0.343 & negligible \\
+categorical & Architectural design level & Ironing efficiency & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.066 & -- & -- & 0.373 & 0.885 & 70 & 6.000 & 5.000 & 0.043 & negligible \\
+categorical & Province & Ironing efficiency & context\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.056 & -- & -- & 0.390 & 0.885 & 70 & 6.000 & 5.000 & 0.043 & negligible \\
+categorical & Roof type & Solar user & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.390 & 0.885 & 70 & 3.000 & 2.000 & 1.600 & negligible \\
+categorical & Main occupation & Solar user & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.023 & -- & -- & 0.393 & 0.885 & 70 & 5.000 & 2.000 & 0.229 & negligible \\
+categorical & Architectural design level & Gender & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.410 & 0.885 & 70 & 6.000 & 2.000 & 0.186 & negligible \\
+categorical & House type & Night-lighting restraint & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.029 & -- & -- & 0.411 & 0.885 & 70 & 5.000 & 3.000 & 0.086 & negligible \\
+categorical & Relationship to head & Bill-calculation literacy & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.043 & -- & -- & 0.412 & 0.885 & 70 & 7.000 & 3.000 & 0.200 & negligible \\
+categorical & Construction period & Gender & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.413 & 0.885 & 70 & 6.000 & 2.000 & 1.114 & negligible \\
+categorical & Bill-payment practice & Solar user & energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.414 & 0.885 & 70 & 4.000 & 2.000 & 1.600 & negligible \\
+categorical & Construction period & Meter-checking frequency & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.036 & -- & -- & 0.417 & 0.885 & 70 & 6.000 & 4.000 & 1.200 & negligible \\
+categorical & Uses renewable source & Night-lighting restraint & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.422 & 0.885 & 70 & 2.000 & 3.000 & 1.029 & negligible \\
+categorical & Bill-payment practice & Professional wiring & energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.424 & 0.885 & 70 & 4.000 & 3.000 & 0.300 & negligible \\
+categorical & Any disconnection notice & Night-lighting restraint & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.432 & 0.891 & 70 & 2.000 & 3.000 & 1.200 & negligible \\
+categorical & Construction period & Bill-payment practice & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.453 & 0.915 & 70 & 6.000 & 4.000 & 0.600 & negligible \\
+categorical & Main occupation & Bill-calculation literacy & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.466 & 0.915 & 70 & 5.000 & 3.000 & 0.200 & negligible \\
+categorical & Uses renewable source & Bill-calculation literacy & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.480 & 0.915 & 70 & 2.000 & 3.000 & 2.400 & negligible \\
+categorical & Uses renewable source & Province & energy\textasciitilde context & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.480 & 0.915 & 70 & 2.000 & 6.000 & 0.171 & negligible \\
+categorical & Gender & Energy-rating awareness & demographic\textasciitilde behaviour & substantive & fisher & cramers\_v & 0.038 & -- & -- & 0.491 & 0.915 & 70 & 2.000 & 2.000 & 3.529 & negligible \\
+categorical & Gender & Professional wiring & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.496 & 0.915 & 70 & 2.000 & 3.000 & 0.557 & negligible \\
+categorical & Bill-calculation literacy & Energy-rating awareness & behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.496 & 0.915 & 70 & 3.000 & 2.000 & 3.800 & negligible \\
+categorical & Outer-wall material & Bill-calculation literacy & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.498 & 0.915 & 70 & 3.000 & 3.000 & 0.800 & negligible \\
+categorical & Main occupation & Energy-rating awareness & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.504 & 0.915 & 70 & 5.000 & 2.000 & 0.271 & negligible \\
+categorical & House type & Bill-payment practice & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.505 & 0.915 & 70 & 5.000 & 4.000 & 0.100 & negligible \\
+categorical & House type & Outer-wall material & dwelling & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.508 & 0.915 & 70 & 5.000 & 3.000 & 0.057 & negligible \\
+categorical & Roof type & Educational attendance & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.509 & 0.915 & 70 & 3.000 & 5.000 & 0.100 & negligible \\
+categorical & Night-lighting restraint & Meter-checking frequency & behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.511 & 0.915 & 70 & 3.000 & 4.000 & 1.200 & negligible \\
+categorical & House type & Energy-rating awareness & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.515 & 0.915 & 70 & 5.000 & 2.000 & 0.271 & negligible \\
+categorical & Educational attendance & Night-lighting restraint & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.515 & 0.915 & 70 & 5.000 & 3.000 & 0.086 & negligible \\
+categorical & Solar user & Energy-rating awareness & energy\textasciitilde behaviour & substantive & fisher & cramers\_v & 0.000 & -- & -- & 0.529 & 0.925 & 70 & 2.000 & 2.000 & 4.343 & negligible \\
+categorical & Bill-payment practice & Province & energy\textasciitilde context & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.531 & 0.925 & 70 & 4.000 & 6.000 & 0.100 & negligible \\
+categorical & Educational attendance & Ironing efficiency & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.538 & 0.925 & 70 & 5.000 & 5.000 & 0.043 & negligible \\
+categorical & Roof type & Bill-calculation literacy & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.540 & 0.925 & 70 & 3.000 & 3.000 & 1.400 & negligible \\
+categorical & Roof type & Energy-rating awareness & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.551 & 0.925 & 70 & 3.000 & 2.000 & 1.900 & negligible \\
+categorical & Solar user & Ironing efficiency & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.553 & 0.925 & 70 & 2.000 & 5.000 & 0.686 & negligible \\
+categorical & Professional wiring & Solar user & energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.555 & 0.925 & 70 & 3.000 & 2.000 & 0.686 & negligible \\
+categorical & Bill-payment practice & Meter-checking frequency & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.567 & 0.928 & 70 & 4.000 & 4.000 & 1.400 & negligible \\
+categorical & Any disconnection notice & Province & energy\textasciitilde context & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.570 & 0.928 & 70 & 2.000 & 6.000 & 0.200 & negligible \\
+categorical & House type & Gender & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.571 & 0.928 & 70 & 5.000 & 2.000 & 0.186 & negligible \\
+categorical & Outer-wall material & Gender & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.579 & 0.928 & 70 & 3.000 & 2.000 & 0.743 & negligible \\
+categorical & Roof type & Province & dwelling\textasciitilde context & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.586 & 0.928 & 70 & 3.000 & 6.000 & 0.100 & negligible \\
+categorical & Educational attendance & Solar user & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.589 & 0.928 & 70 & 5.000 & 2.000 & 0.229 & negligible \\
+categorical & Uses renewable source & Ironing efficiency & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.593 & 0.928 & 70 & 2.000 & 5.000 & 0.514 & negligible \\
+categorical & Bill-calculation literacy & Meter-checking frequency & behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.600 & 0.928 & 70 & 3.000 & 4.000 & 2.800 & negligible \\
+categorical & Outer-wall material & Energy-rating awareness & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.602 & 0.928 & 70 & 3.000 & 2.000 & 1.086 & negligible \\
+categorical & Professional wiring & Any disconnection notice & energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.607 & 0.928 & 70 & 3.000 & 2.000 & 0.600 & negligible \\
+categorical & House type & Any disconnection notice & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.612 & 0.928 & 70 & 5.000 & 2.000 & 0.200 & negligible \\
+categorical & Roof type & Relationship to head & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.617 & 0.928 & 70 & 3.000 & 7.000 & 0.100 & negligible \\
+categorical & Bill-payment practice & Uses renewable source & energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.620 & 0.928 & 70 & 4.000 & 2.000 & 1.200 & negligible \\
+categorical & Professional wiring & Uses renewable source & energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.631 & 0.937 & 70 & 3.000 & 2.000 & 0.514 & negligible \\
+categorical & Solar user & Meter-checking frequency & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.648 & 0.948 & 70 & 2.000 & 4.000 & 3.200 & negligible \\
+categorical & Construction period & Professional wiring & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.652 & 0.948 & 70 & 6.000 & 3.000 & 0.257 & negligible \\
+categorical & Roof type & Main occupation & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.656 & 0.948 & 70 & 3.000 & 5.000 & 0.100 & negligible \\
+categorical & Main occupation & Meter-checking frequency & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.658 & 0.948 & 70 & 5.000 & 4.000 & 0.200 & negligible \\
+categorical & Professional wiring & Bill-calculation literacy & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.668 & 0.953 & 70 & 3.000 & 3.000 & 0.600 & negligible \\
+categorical & Main occupation & Uses renewable source & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.672 & 0.953 & 70 & 5.000 & 2.000 & 0.171 & negligible \\
+categorical & Any disconnection notice & Meter-checking frequency & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.678 & 0.954 & 70 & 2.000 & 4.000 & 2.800 & negligible \\
+categorical & Educational attendance & Uses renewable source & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.709 & 0.984 & 70 & 5.000 & 2.000 & 0.171 & negligible \\
+categorical & House type & Educational attendance & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.713 & 0.984 & 70 & 5.000 & 5.000 & 0.014 & negligible \\
+categorical & Solar user & Province & energy\textasciitilde context & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.716 & 0.984 & 70 & 2.000 & 6.000 & 0.229 & negligible \\
+categorical & Construction period & Night-lighting restraint & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.723 & 0.984 & 70 & 6.000 & 3.000 & 0.514 & negligible \\
+categorical & Gender & Educational attendance & demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.732 & 0.984 & 70 & 2.000 & 5.000 & 0.186 & negligible \\
+categorical & Architectural design level & Bill-calculation literacy & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.738 & 0.984 & 70 & 6.000 & 3.000 & 0.200 & negligible \\
+categorical & Roof type & Professional wiring & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.743 & 0.984 & 70 & 3.000 & 3.000 & 0.300 & negligible \\
+categorical & Educational attendance & Meter-checking frequency & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.749 & 0.984 & 70 & 5.000 & 4.000 & 0.200 & negligible \\
+categorical & Roof type & Gender & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.760 & 0.984 & 70 & 3.000 & 2.000 & 1.300 & negligible \\
+categorical & Night-lighting restraint & Energy-rating awareness & behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.771 & 0.984 & 70 & 3.000 & 2.000 & 1.629 & negligible \\
+categorical & Construction period & Solar user & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.774 & 0.984 & 70 & 6.000 & 2.000 & 1.371 & negligible \\
+categorical & Any disconnection notice & Ironing efficiency & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.779 & 0.984 & 70 & 2.000 & 5.000 & 0.600 & negligible \\
+categorical & Architectural design level & Educational attendance & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.782 & 0.984 & 70 & 6.000 & 5.000 & 0.014 & negligible \\
+categorical & Roof type & Meter-checking frequency & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.792 & 0.984 & 70 & 3.000 & 4.000 & 1.400 & negligible \\
+categorical & Architectural design level & Outer-wall material & dwelling & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.795 & 0.984 & 70 & 6.000 & 3.000 & 0.057 & negligible \\
+categorical & Gender & Ironing efficiency & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.802 & 0.984 & 70 & 2.000 & 5.000 & 0.557 & negligible \\
+categorical & House type & Solar user & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.807 & 0.984 & 70 & 5.000 & 2.000 & 0.229 & negligible \\
+categorical & Main occupation & Night-lighting restraint & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.810 & 0.984 & 70 & 5.000 & 3.000 & 0.086 & negligible \\
+categorical & Construction period & House type & dwelling & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.818 & 0.984 & 70 & 6.000 & 5.000 & 0.086 & negligible \\
+categorical & Outer-wall material & Ironing efficiency & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.826 & 0.984 & 70 & 3.000 & 5.000 & 0.171 & negligible \\
+categorical & Architectural design level & Main occupation & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.826 & 0.984 & 70 & 6.000 & 5.000 & 0.014 & negligible \\
+categorical & Gender & Night-lighting restraint & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.842 & 0.984 & 70 & 2.000 & 3.000 & 1.114 & negligible \\
+categorical & Architectural design level & Meter-checking frequency & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.846 & 0.984 & 70 & 6.000 & 4.000 & 0.200 & negligible \\
+categorical & House type & Meter-checking frequency & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.851 & 0.984 & 70 & 5.000 & 4.000 & 0.200 & negligible \\
+categorical & Bill-calculation literacy & Night-lighting restraint & behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.854 & 0.984 & 70 & 3.000 & 3.000 & 1.200 & negligible \\
+categorical & Construction period & Bill-calculation literacy & dwelling\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.854 & 0.984 & 70 & 6.000 & 3.000 & 1.200 & negligible \\
+categorical & Outer-wall material & Main occupation & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.856 & 0.984 & 70 & 3.000 & 5.000 & 0.057 & negligible \\
+categorical & Construction period & Any disconnection notice & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.866 & 0.984 & 70 & 6.000 & 2.000 & 1.200 & negligible \\
+categorical & Ironing efficiency & Energy-rating awareness & behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.874 & 0.984 & 70 & 5.000 & 2.000 & 0.814 & negligible \\
+categorical & Gender & Bill-calculation literacy & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.876 & 0.984 & 70 & 2.000 & 3.000 & 2.600 & negligible \\
+categorical & House type & Relationship to head & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.883 & 0.984 & 70 & 5.000 & 7.000 & 0.014 & negligible \\
+categorical & Outer-wall material & Solar user & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.888 & 0.984 & 70 & 3.000 & 2.000 & 0.914 & negligible \\
+categorical & Gender & Main occupation & demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.888 & 0.984 & 70 & 2.000 & 5.000 & 0.186 & negligible \\
+categorical & Main occupation & Province & demographic\textasciitilde context & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.892 & 0.984 & 70 & 5.000 & 6.000 & 0.014 & negligible \\
+categorical & Uses renewable source & Meter-checking frequency & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.896 & 0.984 & 70 & 2.000 & 4.000 & 2.400 & negligible \\
+categorical & Construction period & Uses renewable source & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.896 & 0.984 & 70 & 6.000 & 2.000 & 1.029 & negligible \\
+categorical & House type & Uses renewable source & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.897 & 0.984 & 70 & 5.000 & 2.000 & 0.171 & negligible \\
+categorical & Province & Bill-calculation literacy & context\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.905 & 0.984 & 70 & 6.000 & 3.000 & 0.200 & negligible \\
+categorical & Outer-wall material & Uses renewable source & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.906 & 0.984 & 70 & 3.000 & 2.000 & 0.686 & negligible \\
+categorical & Relationship to head & Ironing efficiency & demographic\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.907 & 0.984 & 70 & 7.000 & 5.000 & 0.043 & negligible \\
+categorical & Outer-wall material & Any disconnection notice & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.912 & 0.984 & 70 & 3.000 & 2.000 & 0.800 & negligible \\
+categorical & Educational attendance & Province & demographic\textasciitilde context & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.917 & 0.984 & 70 & 5.000 & 6.000 & 0.014 & negligible \\
+categorical & Educational attendance & Professional wiring & demographic\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.922 & 0.984 & 70 & 5.000 & 3.000 & 0.043 & negligible \\
+categorical & Outer-wall material & Province & dwelling\textasciitilde context & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.935 & 0.993 & 70 & 3.000 & 6.000 & 0.057 & negligible \\
+categorical & Relationship to head & Province & demographic\textasciitilde context & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.943 & 0.993 & 70 & 7.000 & 6.000 & 0.014 & negligible \\
+categorical & Outer-wall material & Bill-payment practice & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.951 & 0.993 & 70 & 3.000 & 4.000 & 0.400 & negligible \\
+categorical & House type & Province & dwelling\textasciitilde context & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.953 & 0.993 & 70 & 5.000 & 6.000 & 0.014 & negligible \\
+categorical & Province & Energy-rating awareness & context\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.957 & 0.993 & 70 & 6.000 & 2.000 & 0.271 & negligible \\
+categorical & House type & Professional wiring & dwelling\textasciitilde energy & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.979 & 1.000 & 70 & 5.000 & 3.000 & 0.043 & negligible \\
+categorical & Professional wiring & Night-lighting restraint & energy\textasciitilde behaviour & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.979 & 1.000 & 70 & 3.000 & 3.000 & 0.257 & negligible \\
+categorical & House type & Main occupation & dwelling\textasciitilde demographic & substantive & chi2 & cramers\_v & 0.000 & -- & -- & 0.992 & 1.000 & 70 & 5.000 & 5.000 & 0.014 & negligible \\
+categorical & Any disconnection notice & Energy-rating awareness & energy\textasciitilde behaviour & substantive & fisher & cramers\_v & 0.000 & -- & -- & 1.000 & 1.000 & 70 & 2.000 & 2.000 & 3.800 & negligible \\
+categorical & Any disconnection notice & Solar user & energy & substantive & fisher & cramers\_v & 0.000 & -- & -- & 1.000 & 1.000 & 70 & 2.000 & 2.000 & 3.200 & negligible \\
+categorical & Any disconnection notice & Uses renewable source & energy & substantive & fisher & cramers\_v & 0.000 & -- & -- & 1.000 & 1.000 & 70 & 2.000 & 2.000 & 2.400 & negligible \\
+categorical & Gender & Uses renewable source & demographic\textasciitilde energy & substantive & fisher & cramers\_v & 0.000 & -- & -- & 1.000 & 1.000 & 70 & 2.000 & 2.000 & 2.229 & negligible \\
+numeric & Non-food expenditure (Rs/mo) & Total expenditure (Rs/mo) & ? & tautological & spearman & spearman\_rho & 0.915 & 0.839 & 0.958 & 0.000 & 0.000 & 69 & -- & -- & -- & large \\
+numeric & Food expenditure (Rs/mo) & Total expenditure (Rs/mo) & ? & tautological & spearman & spearman\_rho & 0.809 & 0.668 & 0.907 & 0.000 & 0.000 & 69 & -- & -- & -- & large \\
+numeric & Energy-rating awareness & Energy-Consciousness Index (0-100) & behaviour\textasciitilde ? & tautological & spearman & spearman\_rho & 0.618 & 0.458 & 0.737 & 0.000 & 0.000 & 70 & -- & -- & -- & large \\
+numeric & Food expenditure (Rs/mo) & Non-food expenditure (Rs/mo) & ? & substantive & spearman & spearman\_rho & 0.561 & 0.341 & 0.739 & 0.000 & 0.000 & 69 & -- & -- & -- & large \\
+numeric & Meter-checking frequency & Energy-Consciousness Index (0-100) & behaviour\textasciitilde ? & tautological & spearman & spearman\_rho & 0.552 & 0.364 & 0.707 & 0.000 & 0.000 & 70 & -- & -- & -- & large \\
+numeric & Bill-calculation literacy & Energy-Consciousness Index (0-100) & behaviour\textasciitilde ? & tautological & spearman & spearman\_rho & 0.386 & 0.171 & 0.571 & 0.001 & 0.011 & 70 & -- & -- & -- & moderate \\
+numeric & Ironing efficiency & Energy-Consciousness Index (0-100) & behaviour\textasciitilde ? & tautological & spearman & spearman\_rho & 0.370 & 0.139 & 0.564 & 0.002 & 0.015 & 70 & -- & -- & -- & moderate \\
+numeric & Non-food expenditure (Rs/mo) & Night-lighting restraint & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.303 & -0.508 & -0.080 & 0.011 & 0.094 & 69 & -- & -- & -- & moderate \\
+numeric & Total expenditure (Rs/mo) & Night-lighting restraint & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.297 & -0.517 & -0.056 & 0.013 & 0.098 & 69 & -- & -- & -- & small \\
+numeric & Meter-checking frequency & Energy-rating awareness & behaviour & substantive & spearman & spearman\_rho & 0.281 & 0.049 & 0.493 & 0.018 & 0.110 & 70 & -- & -- & -- & small \\
+numeric & Floor area (sq ft) & Number of stories & ? & substantive & spearman & spearman\_rho & 0.292 & 0.043 & 0.519 & 0.019 & 0.110 & 64 & -- & -- & -- & small \\
+numeric & Night-lighting restraint & Energy-Consciousness Index (0-100) & behaviour\textasciitilde ? & tautological & spearman & spearman\_rho & 0.278 & 0.054 & 0.479 & 0.020 & 0.110 & 70 & -- & -- & -- & small \\
+numeric & Floor area (sq ft) & Red notices (last year) & ? & substantive & spearman & spearman\_rho & -0.268 & -0.485 & -0.018 & 0.031 & 0.158 & 65 & -- & -- & -- & small \\
+numeric & Food expenditure (Rs/mo) & Night-lighting restraint & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.226 & -0.458 & 0.018 & 0.062 & 0.291 & 69 & -- & -- & -- & small \\
+numeric & Non-food expenditure (Rs/mo) & Energy-Consciousness Index (0-100) & ? & substantive & spearman & spearman\_rho & -0.207 & -0.440 & 0.037 & 0.088 & 0.388 & 69 & -- & -- & -- & small \\
+numeric & Number of stories & Night-lighting restraint & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.182 & -0.403 & 0.046 & 0.135 & 0.558 & 69 & -- & -- & -- & small \\
+numeric & Ironing efficiency & Night-lighting restraint & behaviour & substantive & spearman & spearman\_rho & 0.175 & -0.043 & 0.377 & 0.148 & 0.567 & 70 & -- & -- & -- & small \\
+numeric & Floor area (sq ft) & Food expenditure (Rs/mo) & ? & substantive & spearman & spearman\_rho & -0.179 & -0.400 & 0.050 & 0.155 & 0.567 & 65 & -- & -- & -- & small \\
+numeric & Total expenditure (Rs/mo) & Energy-Consciousness Index (0-100) & ? & substantive & spearman & spearman\_rho & -0.168 & -0.400 & 0.069 & 0.167 & 0.579 & 69 & -- & -- & -- & small \\
+numeric & Ironing efficiency & Meter-checking frequency & behaviour & substantive & spearman & spearman\_rho & 0.149 & -0.100 & 0.379 & 0.217 & 0.664 & 70 & -- & -- & -- & small \\
+numeric & Non-food expenditure (Rs/mo) & Bill-calculation literacy & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.148 & -0.379 & 0.087 & 0.224 & 0.664 & 69 & -- & -- & -- & small \\
+numeric & Number of stories & Ironing efficiency & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.148 & -0.387 & 0.101 & 0.226 & 0.664 & 69 & -- & -- & -- & small \\
+numeric & Floor area (sq ft) & Energy-rating awareness & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.150 & -0.381 & 0.097 & 0.231 & 0.664 & 65 & -- & -- & -- & small \\
+numeric & Number of stories & Total expenditure (Rs/mo) & ? & substantive & spearman & spearman\_rho & 0.143 & -0.090 & 0.366 & 0.246 & 0.676 & 68 & -- & -- & -- & small \\
+numeric & Bill-calculation literacy & Meter-checking frequency & behaviour & substantive & spearman & spearman\_rho & -0.117 & -0.340 & 0.119 & 0.335 & 0.885 & 70 & -- & -- & -- & small \\
+numeric & Bill-calculation literacy & Night-lighting restraint & behaviour & substantive & spearman & spearman\_rho & -0.113 & -0.344 & 0.124 & 0.353 & 0.897 & 70 & -- & -- & -- & small \\
+numeric & Food expenditure (Rs/mo) & Energy-Consciousness Index (0-100) & ? & substantive & spearman & spearman\_rho & -0.103 & -0.351 & 0.146 & 0.399 & 0.924 & 69 & -- & -- & -- & small \\
+numeric & Food expenditure (Rs/mo) & Red notices (last year) & ? & substantive & spearman & spearman\_rho & 0.096 & -0.146 & 0.320 & 0.434 & 0.924 & 69 & -- & -- & -- & negligible \\
+numeric & Red notices (last year) & Night-lighting restraint & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & 0.094 & -0.119 & 0.305 & 0.441 & 0.924 & 70 & -- & -- & -- & negligible \\
+numeric & Red notices (last year) & Meter-checking frequency & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & 0.093 & -0.157 & 0.330 & 0.444 & 0.924 & 70 & -- & -- & -- & negligible \\
+numeric & Night-lighting restraint & Meter-checking frequency & behaviour & substantive & spearman & spearman\_rho & -0.087 & -0.305 & 0.144 & 0.474 & 0.924 & 70 & -- & -- & -- & negligible \\
+numeric & Number of stories & Food expenditure (Rs/mo) & ? & substantive & spearman & spearman\_rho & 0.087 & -0.163 & 0.325 & 0.482 & 0.924 & 68 & -- & -- & -- & negligible \\
+numeric & Floor area (sq ft) & Non-food expenditure (Rs/mo) & ? & substantive & spearman & spearman\_rho & 0.086 & -0.151 & 0.307 & 0.496 & 0.924 & 65 & -- & -- & -- & negligible \\
+numeric & Night-lighting restraint & Energy-rating awareness & behaviour & substantive & spearman & spearman\_rho & -0.079 & -0.311 & 0.153 & 0.517 & 0.924 & 70 & -- & -- & -- & negligible \\
+numeric & Floor area (sq ft) & Energy-Consciousness Index (0-100) & ? & substantive & spearman & spearman\_rho & -0.082 & -0.297 & 0.147 & 0.518 & 0.924 & 65 & -- & -- & -- & negligible \\
+numeric & Number of stories & Bill-calculation literacy & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & 0.079 & -0.159 & 0.322 & 0.519 & 0.924 & 69 & -- & -- & -- & negligible \\
+numeric & Total expenditure (Rs/mo) & Bill-calculation literacy & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.077 & -0.313 & 0.158 & 0.530 & 0.924 & 69 & -- & -- & -- & negligible \\
+numeric & Number of stories & Red notices (last year) & ? & substantive & spearman & spearman\_rho & -0.076 & -0.298 & 0.152 & 0.532 & 0.924 & 69 & -- & -- & -- & negligible \\
+numeric & Number of stories & Meter-checking frequency & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.068 & -0.302 & 0.174 & 0.579 & 0.945 & 69 & -- & -- & -- & negligible \\
+numeric & Number of stories & Non-food expenditure (Rs/mo) & ? & substantive & spearman & spearman\_rho & 0.067 & -0.184 & 0.315 & 0.588 & 0.945 & 68 & -- & -- & -- & negligible \\
+numeric & Number of stories & Energy-Consciousness Index (0-100) & ? & substantive & spearman & spearman\_rho & -0.063 & -0.292 & 0.183 & 0.606 & 0.945 & 69 & -- & -- & -- & negligible \\
+numeric & Food expenditure (Rs/mo) & Energy-rating awareness & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & 0.061 & -0.183 & 0.291 & 0.619 & 0.945 & 69 & -- & -- & -- & negligible \\
+numeric & Non-food expenditure (Rs/mo) & Energy-rating awareness & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.058 & -0.281 & 0.169 & 0.639 & 0.945 & 69 & -- & -- & -- & negligible \\
+numeric & Red notices (last year) & Energy-rating awareness & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.053 & -0.314 & 0.194 & 0.660 & 0.945 & 70 & -- & -- & -- & negligible \\
+numeric & Total expenditure (Rs/mo) & Red notices (last year) & ? & substantive & spearman & spearman\_rho & 0.053 & -0.181 & 0.279 & 0.663 & 0.945 & 69 & -- & -- & -- & negligible \\
+numeric & Non-food expenditure (Rs/mo) & Meter-checking frequency & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & 0.052 & -0.205 & 0.313 & 0.670 & 0.945 & 69 & -- & -- & -- & negligible \\
+numeric & Bill-calculation literacy & Ironing efficiency & behaviour & substantive & spearman & spearman\_rho & -0.051 & -0.283 & 0.187 & 0.673 & 0.945 & 70 & -- & -- & -- & negligible \\
+numeric & Non-food expenditure (Rs/mo) & Red notices (last year) & ? & substantive & spearman & spearman\_rho & 0.039 & -0.183 & 0.253 & 0.752 & 0.991 & 69 & -- & -- & -- & negligible \\
+numeric & Bill-calculation literacy & Energy-rating awareness & behaviour & substantive & spearman & spearman\_rho & 0.035 & -0.190 & 0.262 & 0.776 & 0.991 & 70 & -- & -- & -- & negligible \\
+numeric & Total expenditure (Rs/mo) & Meter-checking frequency & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & 0.035 & -0.219 & 0.293 & 0.778 & 0.991 & 69 & -- & -- & -- & negligible \\
+numeric & Food expenditure (Rs/mo) & Bill-calculation literacy & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & 0.034 & -0.214 & 0.278 & 0.783 & 0.991 & 69 & -- & -- & -- & negligible \\
+numeric & Food expenditure (Rs/mo) & Ironing efficiency & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & 0.031 & -0.222 & 0.290 & 0.799 & 0.991 & 69 & -- & -- & -- & negligible \\
+numeric & Red notices (last year) & Ironing efficiency & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & 0.027 & -0.188 & 0.246 & 0.823 & 0.991 & 70 & -- & -- & -- & negligible \\
+numeric & Floor area (sq ft) & Ironing efficiency & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.026 & -0.235 & 0.187 & 0.839 & 0.991 & 65 & -- & -- & -- & negligible \\
+numeric & Floor area (sq ft) & Night-lighting restraint & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.025 & -0.257 & 0.214 & 0.842 & 0.991 & 65 & -- & -- & -- & negligible \\
+numeric & Number of stories & Energy-rating awareness & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & 0.021 & -0.211 & 0.253 & 0.865 & 0.991 & 69 & -- & -- & -- & negligible \\
+numeric & Red notices (last year) & Energy-Consciousness Index (0-100) & ? & substantive & spearman & spearman\_rho & 0.018 & -0.218 & 0.262 & 0.885 & 0.991 & 70 & -- & -- & -- & negligible \\
+numeric & Floor area (sq ft) & Meter-checking frequency & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.015 & -0.260 & 0.240 & 0.905 & 0.991 & 65 & -- & -- & -- & negligible \\
+numeric & Ironing efficiency & Energy-rating awareness & behaviour & substantive & spearman & spearman\_rho & 0.014 & -0.208 & 0.228 & 0.906 & 0.991 & 70 & -- & -- & -- & negligible \\
+numeric & Food expenditure (Rs/mo) & Meter-checking frequency & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.014 & -0.260 & 0.234 & 0.910 & 0.991 & 69 & -- & -- & -- & negligible \\
+numeric & Non-food expenditure (Rs/mo) & Ironing efficiency & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.009 & -0.251 & 0.238 & 0.943 & 0.991 & 69 & -- & -- & -- & negligible \\
+numeric & Total expenditure (Rs/mo) & Ironing efficiency & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.007 & -0.240 & 0.232 & 0.953 & 0.991 & 69 & -- & -- & -- & negligible \\
+numeric & Total expenditure (Rs/mo) & Energy-rating awareness & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.006 & -0.236 & 0.219 & 0.962 & 0.991 & 69 & -- & -- & -- & negligible \\
+numeric & Floor area (sq ft) & Bill-calculation literacy & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & 0.005 & -0.250 & 0.259 & 0.970 & 0.991 & 65 & -- & -- & -- & negligible \\
+numeric & Red notices (last year) & Bill-calculation literacy & ?\textasciitilde behaviour & substantive & spearman & spearman\_rho & -0.001 & -0.262 & 0.259 & 0.991 & 0.991 & 70 & -- & -- & -- & negligible \\
+numeric & Floor area (sq ft) & Total expenditure (Rs/mo) & ? & substantive & spearman & spearman\_rho & -0.001 & -0.230 & 0.220 & 0.991 & 0.991 & 65 & -- & -- & -- & negligible \\
+\bottomrule
+\end{tabular}
+\end{table}

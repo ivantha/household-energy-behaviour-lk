@@ -1,0 +1,20 @@
+attribute,kind,effect,value,test,p,q_bh
+Wall material,categorical,Cramer's V,0.5183,chi2,0.0,0.0
+Roof type,categorical,Cramer's V,0.4697,chi2,0.0,0.0001
+Bill rounding,categorical,Cramer's V,0.5978,chi2,0.0,0.0001
+University-educated,categorical,Cramer's V,0.5927,chi2,0.0,0.0001
+Architect-designed,categorical,Cramer's V,0.5692,chi2,0.0,0.0001
+Build period,categorical,Cramer's V,0.3069,chi2,0.0019,0.006
+House type,categorical,Cramer's V,0.2544,chi2,0.014,0.038
+Night-light,ordinal,epsilon^2,0.1234,kruskal,0.0172,0.0408
+Pro wiring,categorical,Cramer's V,0.2541,chi2,0.0313,0.0656
+Red notice (yr),categorical,Cramer's V,0.3027,chi2,0.0345,0.0656
+Gender,categorical,Cramer's V,0.2889,chi2,0.0436,0.0754
+Energy-rating,ordinal,epsilon^2,0.0554,kruskal,0.1072,0.1698
+Renewable use,categorical,Cramer's V,0.1674,chi2,0.1999,0.2921
+Province,categorical,Cramer's V,0.0,chi2,0.4452,0.5727
+Meter-check,ordinal,epsilon^2,-0.005,kruskal,0.4521,0.5727
+Relationship to head,categorical,Cramer's V,0.0,chi2,0.5054,0.6002
+ECI (0-100),ordinal,epsilon^2,-0.0161,kruskal,0.5653,0.6318
+Bill literacy,ordinal,epsilon^2,-0.0288,kruskal,0.7117,0.7513
+Ironing,ordinal,epsilon^2,-0.0526,kruskal,0.9655,0.9655

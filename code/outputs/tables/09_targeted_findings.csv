@@ -1,0 +1,3 @@
+Finding,Test,Effect,95\% CI,p,q (within-family),q (omnibus 08)
+Affluence -> less night-lighting restraint (PRIMARY),Spearman,rho = -0.30,"[-0.51, -0.08]",0.011,0.057 (5-beh.); 0.094 (06); 0.041 (07),0.567
+Smaller dwelling -> more disconnection (SECONDARY),Mann-Whitney / logistic,Cliff d = -0.41; OR = 0.32/SD,"AUC [0.15, 0.47]",0.025,0.158 (06 numeric family),n/a (not a behaviour)

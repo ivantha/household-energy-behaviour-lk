@@ -1,0 +1,6 @@
+,Bill-calc literacy,Ironing efficiency,Night-light restraint,Meter-checking,Energy-rating check
+Bill-calc literacy,1.0,-0.051,-0.113,-0.117,0.035
+Ironing efficiency,-0.051,1.0,0.175,0.149,0.014
+Night-light restraint,-0.113,0.175,1.0,-0.087,-0.079
+Meter-checking,-0.117,0.149,-0.087,1.0,0.281
+Energy-rating check,0.035,0.014,-0.079,0.281,1.0

@@ -1,0 +1,16 @@
+Predictor,Behaviour,Kind,Test,n,Effect,Value,CI lo,CI hi,Var.expl.,p,q (BH),FDR<.05
+Non-food exp (Rs/mo),Night-light restraint,numeric,spearman,69,rho,-0.303,-0.508,-0.08,0.092,0.0114,0.5672,False
+Total exp (Rs/mo),Night-light restraint,numeric,spearman,69,rho,-0.297,-0.517,-0.056,0.088,0.0133,0.5672,False
+House type,Night-light restraint,categorical,kruskal,68,eps2,0.054,-0.022,0.242,0.054,0.0638,0.7324,False
+Roof type,Ironing efficiency,categorical,kruskal,70,eps2,0.053,-0.025,0.284,0.053,0.0625,0.7324,False
+Gender,Meter-checking,categorical,kruskal,70,eps2,0.053,-0.013,0.218,0.053,0.0322,0.7324,False
+Roof type,Night-light restraint,categorical,kruskal,70,eps2,0.051,-0.018,0.215,0.051,0.0663,0.7324,False
+Food exp (Rs/mo),Night-light restraint,numeric,spearman,69,rho,-0.226,-0.458,0.017,0.051,0.0618,0.7324,False
+Bill-payment style,Energy-rating use,categorical,kruskal,70,eps2,0.05,-0.022,0.263,0.05,0.0689,0.7324,False
+Province,Meter-checking,categorical,kruskal,70,eps2,0.041,-0.027,0.27,0.041,0.1253,0.7666,False
+Province,Ironing efficiency,categorical,kruskal,70,eps2,0.039,-0.028,0.225,0.039,0.133,0.7666,False
+No. of stories,Night-light restraint,numeric,spearman,69,rho,-0.182,-0.403,0.046,0.033,0.1353,0.7666,False
+Wall material,Meter-checking,categorical,kruskal,70,eps2,0.028,-0.014,0.167,0.028,0.0871,0.7666,False
+Wall material,Night-light restraint,categorical,kruskal,70,eps2,0.027,-0.014,0.177,0.027,0.092,0.7666,False
+Pro. wiring,Ironing efficiency,categorical,kruskal,70,eps2,0.023,-0.015,0.159,0.023,0.1095,0.7666,False
+Uses renewable,Energy-rating use,categorical,kruskal,70,eps2,0.023,-0.014,0.102,0.023,0.11,0.7666,False

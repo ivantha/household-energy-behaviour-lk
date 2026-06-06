@@ -1,0 +1,7 @@
+metric,k,n,proportion,wilson_lo,wilson_hi,boot_lo,boot_hi
+Water heating,9,16,0.5625,0.3318,0.769,0.3125,0.8125
+Outdoor lighting,11,16,0.6875,0.444,0.8584,0.4375,0.875
+Cooking,8,16,0.5,0.28,0.72,0.25,0.75
+Car charging,2,16,0.125,0.035,0.3602,0.0,0.3125
+Agriculture,1,16,0.0625,0.0111,0.2833,0.0,0.1875
+Other,2,16,0.125,0.035,0.3602,0.0,0.3125

@@ -1,0 +1,30 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Oshan Mudannayake
+
+The survey data in this directory (and its processed derivatives) is licensed
+under the Creative Commons Attribution 4.0 International License.
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format;
+  - Adapt — remix, transform, and build upon the material for any purpose,
+    even commercially.
+
+Under the following terms:
+  - Attribution — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made. You may do so in any reasonable
+    manner, but not in any way that suggests the licensor endorses you or your
+    use.
+
+The full legal code is available at:
+  https://creativecommons.org/licenses/by/4.0/legalcode
+A human-readable summary is at:
+  https://creativecommons.org/licenses/by/4.0/
+
+Suggested attribution:
+  Mudannayake, Oshan (2026). Household Energy-Conserving Behaviour in Sri Lanka
+  — survey dataset (N = 70). CC BY 4.0.
+  https://github.com/ivantha/household-energy-behaviour-lk
+
+Note: this CC BY 4.0 license covers the DATA under `data/` only. The analysis
+code under `code/` is licensed separately under the MIT License (see ../LICENSE).
